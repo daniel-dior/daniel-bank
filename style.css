@@ -373,6 +373,6 @@ body {
 }
 @media screen and (max-width:400px) {
     .img2 img {
-        top: 300px;
+        top: 400px;
     }
 }
