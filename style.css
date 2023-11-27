@@ -90,16 +90,18 @@ body {
     color: rgb(39, 39, 39);
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 15px;
 }
 .nav a:hover {
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid rgb(17, 255, 255);
+    
 }
 .nav {
     gap: 50px;
     display: flex;
 }
 .link a {
- background-color: aqua;
+    background-image: linear-gradient(to right ,hsl(136, 65%, 51%) ,aqua ,rgb(0, 132, 255) );
  padding: 20px 50px;
  border-radius: 50px;
  text-decoration: none;
@@ -107,10 +109,10 @@ body {
  font-size: 20px;
 }
 .link a:hover {
-    background-color: rgb(144, 248, 213);
-}
+    opacity: 0.8;
+   }
 .link1 a {
-    background-color: aqua;
+    background-image: linear-gradient(to right ,hsl(136, 65%, 51%) ,aqua ,rgb(0, 132, 255) );
     padding: 20px 50px;
     border-radius: 50px;
     text-decoration: none;
@@ -118,7 +120,7 @@ body {
     font-size: 20px;
    }
    .link1 a:hover {
-       background-color: rgb(144, 248, 213);
+    opacity: 0.8;
    }
 .body1 {
     display: flex;
@@ -170,6 +172,9 @@ body {
     margin-bottom: 100px;
     font-size: 40px;
 }
+.word3 h1 {
+    font-size: 30px;
+}
 .flex1 {
     display: flex;
     gap: 50px;
@@ -208,7 +213,8 @@ body {
     margin-top: 60px;
 }
 .link2 a {
-    background-color: aqua;
+    background-image: linear-gradient(to right ,hsl(136, 65%, 51%) ,aqua ,rgb(0, 132, 255) );
+
     padding: 15px 40px;
     border-radius: 50px;
     text-decoration: none;
@@ -219,7 +225,7 @@ body {
     margin-bottom: 70px;
    }
    .link2 a:hover {
-       background-color: rgb(144, 248, 213);
+    opacity: 0.8;
    }
 @media screen and (max-width:900px) {
     .img {
@@ -312,9 +318,8 @@ body {
     .navbar {
         justify-content: space-between;
     }
-    .img2 {
-        margin-top: -400px;
-    }
+    
+    
     .word {
         font-size: 20px;
         text-align: center;
@@ -356,10 +361,18 @@ body {
     .body3 {
         padding: 50px ;
     }
+    .img2 img {
+        top: 500px;
+        position: relative;
+        margin-top: -900px;
+    }
+    .word {
+        margin-top: 700px;
+    }
 
 }
 @media screen and (max-width:400px) {
     .img2 img {
-        top: 830px;
+        top: 300px;
     }
 }
