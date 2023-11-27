@@ -30,7 +30,7 @@ body {
     background-color: white;
     border: 1px solid gray;
     border-radius: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     padding-top: 50px;
 }
 .overlay:hover {
@@ -308,6 +308,10 @@ body {
 @media screen and (max-width:500px) {
     .link {
         display: none;
+    }
+    .overlay-content {
+        padding-bottom: 180px;
+        padding-top: 50px;
     }
     .nav {
         display: none;
