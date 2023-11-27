@@ -30,7 +30,7 @@ body {
     background-color: white;
     border: 1px solid gray;
     border-radius: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     padding-top: 50px;
 }
 .overlay:hover {
@@ -50,7 +50,7 @@ body {
     color: white;
 }
 .overlay a {
-    padding: 8px;
+    padding: 10px;
     scroll-padding-top: -20px;
     text-decoration: none;
     font-size: 25px;
