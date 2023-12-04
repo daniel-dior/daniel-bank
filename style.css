@@ -227,6 +227,26 @@ body {
    .link2 a:hover {
     opacity: 0.8;
    }
+   i {
+    border-radius: 50%;
+    border-color:white;
+        color: aqua;
+    padding: 7px 8px;
+
+        border: 1px solid white;
+    transition: 0.5s;
+
+   }
+   i:hover {
+    border-radius: 50%;
+    padding: 7px 8px;
+    border-color: aqua;
+    transition: 0.5s;
+   }
+   .web {
+    gap: 10px;
+    display: flex;
+   }
 @media screen and (max-width:900px) {
     .img {
         position: absolute;
